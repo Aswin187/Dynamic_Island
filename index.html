@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Island effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+      
+        <div class="inner">
+            <div class="island_popup">
+                <div class="content">
+                    <div class="details">
+                        <div class="imgBx">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSah1UftACNwOrGtZ3wRrxWmznNzfJRSVDE2JarSo-8HptnwvQ1">  
+                        </div>
+                        <p>Sundar Calling</p>
+                    </div>
+                    <div class="action">
+                        <ion-icon name="call" class="red"></ion-icon>
+                        <ion-icon name="call" class="green"></ion-icon>
+
+                    </div>
+                </div>
+            </div>
+       
+        <i class="btn btn1"></i>
+        <i class="btn btn2"></i>
+        <i class="btn btn3"></i>
+        <i class="rightSideBtn"></i>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+        <script>
+            let popup = document.querySelector('.island_popup');
+            popup.onclick = function(){
+                popup.classList.toggle('active')
+            }
+        </script>
+</div>
+    </div>
+</body>
+</html>
