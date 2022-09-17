@@ -10,4 +10,4 @@
 
 # Screenshots
 
-![App Screenshot](./Assets/Untitled%20design%20(1).mp4)
+![App Screenshot](./Assets/dynamic_island.png)
